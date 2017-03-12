@@ -1,0 +1,34 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* 
+*  Header
+*/
+.profile {
+	text-align: right;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.profile-name {
+	font-size:50px;
+	color: #ccc;
+}
+
+.profile-job {
+	font-style: italic;
+}
+
+.thin-font {
+	font-weight: 300;
+}
+
+/*
+*	MEDIA
+*/
+@media screen and (max-width: 770px) {
+	.profile-image, .profile {
+		text-align: center;
+	}
+}
