@@ -1,9 +1,10 @@
 body {
+	background-color: #eceeef;
 	font-family: 'Lato', sans-serif;
 }
 
 /* 
-*  Header
+*  HEADER
 */
 .profile {
 	text-align: right;
@@ -13,11 +14,12 @@ body {
 
 .profile-name {
 	font-size:50px;
-	color: #ccc;
+	color: #292b2c
 }
 
 .profile-job {
 	font-style: italic;
+	color: #7d97ad;
 }
 
 .thin-font {
@@ -25,10 +27,27 @@ body {
 }
 
 /*
-*	MEDIA
+*	LINE
+*/
+
+/*
+*	MEDIAS
 */
 @media screen and (max-width: 770px) {
 	.profile-image, .profile {
 		text-align: center;
+		margin: 0;
 	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.profile-name {
+		font-size: 40px;
+	}
+
+	.profile-job {
+		font-size: 20px;
+	}
+
 }
