@@ -1,5 +1,4 @@
 body {
-	background-color: #eceeef;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -8,13 +7,13 @@ body {
 */
 .profile {
 	text-align: right;
-	margin-top: 20px;
+	margin-top: 30px;
 	text-transform: uppercase;
 }
 
 .profile-name {
-	font-size:50px;
-	color: #292b2c
+	font-size:70px;
+	color: #ccc;
 }
 
 .profile-job {
@@ -29,10 +28,68 @@ body {
 /*
 *	LINE
 */
+hr {
+	background-color: #7d97ad;
+	border: none;
+	height: 3px;
+}
+
+/*
+* MAIN
+*/
+main {
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.feature-work {
+	font-size: 40px;
+	color: #ccc;
+	margin-bottom: 15px;
+}
+
+
+.project-title {
+	color: #ccc;
+	font-size: 30px;
+	padding: 18px;
+}
+
+.project-link {
+	color: #ccc;
+}
+
+.project-link: hover {
+	color: blue;
+}
+
+/*
+* FOOTER
+*/
+footer {
+	font-size: 15px;
+	margin-top: 25px;
+	text-align: center;
+}
 
 /*
 *	MEDIAS
 */
+@media screen and (max-width: 995px) {
+	.project {
+		margin-bottom: 30px;
+	}
+
+	.project-title {
+		font-size: 35px;
+	}
+
+	.project-link {
+		font-size: 20px;
+	}
+}
+
 @media screen and (max-width: 770px) {
 	.profile-image, .profile {
 		text-align: center;
@@ -41,7 +98,23 @@ body {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
+	.profile-name {
+		font-size: 50px;
+	}
+
+	.feature-work {
+		font-size: 35px;
+		text-align: center;
+	}
+
+	.project-link {
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
 	.profile-name {
 		font-size: 40px;
 	}
