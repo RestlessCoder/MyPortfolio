@@ -1,5 +1,16 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
+}
+
+/*
+*  IMAGES
+*/
+.myself-image {
+	width: 150px;
+}
+
+.img-responsive {
+	width: 100%;
 }
 
 /* 
@@ -60,7 +71,7 @@ main {
 	color: #ccc;
 }
 
-.project-link: hover {
+.project-link:hover {
 	color: blue;
 }
 
@@ -77,50 +88,24 @@ footer {
 *	MEDIAS
 */
 @media screen and (max-width: 995px) {
-	.project {
-		margin-bottom: 30px;
-	}
-
-	.project-title {
-		font-size: 35px;
-	}
-
-	.project-link {
-		font-size: 20px;
-	}
+	.project { margin-bottom: 30px; }
+ 	.project-title { font-size: 35px; }
+	.project-link { font-size: 20px; }
 }
 
 @media screen and (max-width: 770px) {
-	.profile-image, .profile {
-		text-align: center;
-		margin: 0;
-	}
+	.profile-image, .profile { text-align: center; margin: 0;}
 
 }
 
 @media screen and (max-width: 550px) {
-	.profile-name {
-		font-size: 50px;
-	}
-
-	.feature-work {
-		font-size: 35px;
-		text-align: center;
-	}
-
-	.project-link {
-		font-size: 15px;
-	}
+	.profile-name { font-size: 50px; }
+	.feature-work { font-size: 35px;text-align: center;}
+	.project-link { font-size: 15px; }
 
 }
 
 @media screen and (max-width: 480px) {
-	.profile-name {
-		font-size: 40px;
-	}
-
-	.profile-job {
-		font-size: 20px;
-	}
-
+	.profile-name { font-size: 40px; }
+	.profile-job { font-size: 20px; }
 }
